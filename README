@@ -12,5 +12,10 @@ class MyModel < ActiveRecord::Base
   acts_as_readonly
 end
 
+Installation
+=======
+$ ./script/plugin install git@github.com:kevincolyar/acts_as_readonly.git
+
+
 
 Copyright (c) 2009 Kevin Colyar, released under the MIT license

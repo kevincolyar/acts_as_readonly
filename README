@@ -1,0 +1,16 @@
+ActsAsReadonly
+==============
+
+acts_as_readonly is an ActiveRecord plugin that makes a model readonly, preventing its attributes from being set and calling methods like save, create, and destroy on it.
+
+This plugin is useful for working with risky, legacy or third party database data is only being viewed.
+
+Example
+=======
+
+class MyModel < ActiveRecord::Base
+  acts_as_readonly
+end
+
+
+Copyright (c) 2009 Kevin Colyar, released under the MIT license
